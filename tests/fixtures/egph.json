@@ -1,0 +1,24 @@
+[
+  {
+    "icaoId": "EGPH",
+    "receiptTime": "2026-10-17T15:54:09.813Z",
+    "obsTime": 1792252200,
+    "reportTime": "2026-10-17T16:00:00.000Z",
+    "temp": 11,
+    "dewp": 2,
+    "wdir": "VRB",
+    "wspd": 2,
+    "visib": "6+",
+    "altim": 1038,
+    "qcField": 0,
+    "metarType": "METAR",
+    "rawOb": "METAR EGPH 171550Z VRB02KT CAVOK 11/02 Q1038",
+    "lat": 55.952,
+    "lon": -3.36,
+    "elev": 29,
+    "name": "Edinburgh Arpt, SC, GB",
+    "cover": "CAVOK",
+    "clouds": [],
+    "fltCat": "VFR"
+  }
+]

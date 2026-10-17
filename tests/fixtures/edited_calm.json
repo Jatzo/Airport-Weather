@@ -1,0 +1,38 @@
+[
+  {
+    "icaoId": "EGLL",
+    "receiptTime": "2026-10-17T15:54:29.909Z",
+    "obsTime": 1792252200,
+    "reportTime": "2026-10-17T16:00:00.000Z",
+    "temp": 11,
+    "dewp": 9,
+    "wdir": 0,
+    "wspd": 0,
+    "visib": "6+",
+    "altim": 1033,
+    "qcField": 2,
+    "wxString": "-RA",
+    "metarType": "METAR",
+    "rawOb": "METAR EGLL 171550Z AUTO 03007KT 340V070 9999 -RA FEW018 SCT030 BKN039 11/09 Q1033 RERA",
+    "lat": 51.477,
+    "lon": -0.461,
+    "elev": 26,
+    "name": "London/Heathrow Intl, EN, GB",
+    "cover": "BKN",
+    "clouds": [
+      {
+        "cover": "FEW",
+        "base": 1800
+      },
+      {
+        "cover": "SCT",
+        "base": 3000
+      },
+      {
+        "cover": "BKN",
+        "base": 3900
+      }
+    ],
+    "fltCat": "VFR"
+  }
+]

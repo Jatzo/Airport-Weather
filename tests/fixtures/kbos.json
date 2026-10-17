@@ -1,0 +1,35 @@
+[
+  {
+    "icaoId": "KBOS",
+    "receiptTime": "2026-10-17T15:58:12.064Z",
+    "obsTime": 1792252440,
+    "reportTime": "2026-10-17T16:00:00.000Z",
+    "temp": 8.9,
+    "dewp": 0.6,
+    "wdir": 320,
+    "wspd": 13,
+    "wgst": 20,
+    "visib": "10+",
+    "altim": 1019,
+    "slp": 1019,
+    "qcField": 4,
+    "metarType": "METAR",
+    "rawOb": "METAR KBOS 171554Z 32013G20KT 10SM FEW033 BKN120 09/01 A3009 RMK AO2 SLP190 T00890006",
+    "lat": 42.3606,
+    "lon": -71.0097,
+    "elev": 4,
+    "name": "Boston/Logan Intl, MA, US",
+    "cover": "BKN",
+    "clouds": [
+      {
+        "cover": "FEW",
+        "base": 3300
+      },
+      {
+        "cover": "BKN",
+        "base": 12000
+      }
+    ],
+    "fltCat": "VFR"
+  }
+]

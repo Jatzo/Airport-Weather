@@ -1,0 +1,31 @@
+[
+  {
+    "icaoId": "BIKF",
+    "receiptTime": "2026-10-17T15:33:12.928Z",
+    "obsTime": 1792251000,
+    "reportTime": "2026-10-17T15:30:00.000Z",
+    "temp": 8,
+    "dewp": 8,
+    "wdir": 140,
+    "wspd": 36,
+    "wgst": 46,
+    "visib": 2.49,
+    "altim": 1005,
+    "qcField": 0,
+    "wxString": "DZ RA BR",
+    "metarType": "METAR",
+    "rawOb": "METAR BIKF 171530Z 14036G46KT 4000 DZRA BR OVC007 08/08 Q1005",
+    "lat": 63.987,
+    "lon": -22.614,
+    "elev": 49,
+    "name": "Keflavik Intl, SP, IS",
+    "cover": "OVC",
+    "clouds": [
+      {
+        "cover": "OVC",
+        "base": 700
+      }
+    ],
+    "fltCat": "IFR"
+  }
+]
