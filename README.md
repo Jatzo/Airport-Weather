@@ -246,14 +246,6 @@ The fixtures are real responses, one per case:
 
 Test names are sentences about behaviour, so a failure reads like a description of what broke.
 
-## Step 8: What comes next
 
-**V2: a web front end.** The logic you wrote stays as it is. A small Python API wraps `fetch`, `parse` and `describe` and returns the report as JSON. A JavaScript page calls it and shows the result. This is why the three files are kept apart: only `cli.py` is replaced.
-
-**V3: forecasts and tools.** The forecast report (TAF) gets the same treatment as METAR: fetch, parse, describe, now shown as a timeline. An airport map shows where the airport is. A crosswind calculator uses the wind direction and speed you already parse, plus a runway heading. IFR alerts use the visibility and cloud height to warn when pilots would need to fly by instruments.
-
-## What I learned
-
-*(To fill in.)*
 
 <sub>This is an old project I managed to recover.</sub>
