@@ -15,13 +15,6 @@ Few clouds at 1,800 ft.
 Scattered cloud at 3,000 ft.
 Broken cloud at 3,900 ft.
 ```
-
-This is version 1 of three. It is written as a guide, so you can build it one step at a time and see why each part exists.
-
-- **V1 (this repo):** command line, one airport, current weather.
-- **V2:** a web page that shows the same report, with a small Python API behind it.
-- **V3:** forecasts, a map, a crosswind calculator and alerts.
-
 ## What the numbers mean
 
 The tool reads a METAR. That is the short coded weather report airports publish, usually every 30 minutes or every hour. Raw, it looks like this:
