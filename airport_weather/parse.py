@@ -9,9 +9,9 @@ class Weather:
     name: str
     temperature_c: float
     dew_point_c: float
-    wind_direction: int  # degrees, or the word "VRB" when the wind is variable
+    wind_direction: int | str
     wind_speed_kt: int
-    wind_gust_kt: int  # None when there are no gusts
+    wind_gust_kt: int | None
     visibility_miles: float
     visibility_is_minimum: bool  # True when the service sent "10+", meaning "at least"
     clouds: list  # empty list when the sky is clear

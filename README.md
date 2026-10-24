@@ -153,7 +153,7 @@ The code is changed to upper case, so `kbos` and `KBOS` are the same. `airport_w
 
 ## Step 6: Handle errors
 
-**Goal:** when something goes wrong, print one friendly line and stop. Never show a traceback.
+**Goal:** when one of the four common things goes wrong, print one friendly line and stop, with no traceback.
 
 **Run** each of these:
 
@@ -234,7 +234,7 @@ The fixtures are real responses, one per case:
    curl.exe -s "https://aviationweather.gov/api/data/metar?ids=KSFO&format=json" -o tests/fixtures/ksfo.json
    ```
 
-2. Write a test that loads it:
+2. Write a test that loads it, in `tests/test_describe.py`:
 
    ```python
    def test_my_new_case():

@@ -15,7 +15,7 @@ def fetch_metar(icao):
         response = requests.get(
             METAR_URL,
             params={"ids": icao, "format": "json"},
-            timeout=10,
+            timeout=10,  # seconds
         )
     # Timeout goes first: a connect timeout counts as a ConnectionError too.
     except requests.Timeout:
